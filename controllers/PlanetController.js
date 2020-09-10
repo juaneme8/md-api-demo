@@ -1,5 +1,3 @@
-const { response } = require('express');
-
 class PlanetController {
 	constructor(planetService) {
 		this.planetService = planetService;
